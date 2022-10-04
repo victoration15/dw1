@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root {
+    --cor0: #EDE0D4;
+    --cor1: #E6CCB2;
+    --cor2: #DDB892;
+    --cor3: #B08968;
+    --cor4: #7F5539;
+    --cor4: #9C6644;
+    --cor5: #000000;
+    --cor6: #260701;
+    --cor7: #ffffff;
+    --fonte-padrao: 'Montserrat';
+    --fonte-destaque: 'Passion One', cursive;
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--cor2);
+    color: var(--cor6);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor7);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.linksCabecalho:hover {
+    background-color: var(--cor6);
+    color: var(--cor1);
+
+}
+
+a:hover {
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+.container {
+    background-image: url("imagens/fundo02.jpg");
+    background-size: cover;
+    color: var(--cor6);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    flex-direction: column;
+}
+
+.caixaPerfis {
+    background: var(--cor1);
+    width: 300px;
+    height: 350px;
+    border-radius: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 36px;
+}
+
+.caixaPerfis {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.caixaPerfis:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.caixaPerfis>a {
+    color: var(--cor6);
+}
+
+.caixaPerfis>p {
+    text-align: center;
+    color: var(--cor6);
+}
+
+.caixaPerfis>img {
+    width: 41%;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+
+#sessao01 {
+    background: var(--cor4);
+    width: 100%;
+    height: 15%;
+}
+
+#sessao01>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sessao02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+#sessao02>div>a {
+    font-size: 25px;
+    padding-top: 10px;
+}
