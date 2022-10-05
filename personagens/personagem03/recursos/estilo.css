@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    color: #260701;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 :root {
     --cor1: #260701;
@@ -17,9 +8,13 @@
     --cor3: #B08968;
     --cor4: #DDB892;
     --cor5: #ece0d1;
+    --cor6: #e3c995;
+    --cor7: #f1e5c8;
 
-    --fonte: 'Raleway', sans-serif;
+    --fonte: 'Satisfy', cursive;
     --fonte-destaque: 'Passion One', cursive;
+    --fonte01: 'Raleway', sans-serif;
+
 
 }
 
@@ -27,6 +22,20 @@
     font-family: Vitorian;
     src: url(./fontes/battlesbridge-font/BattlesbridgeDemo-AL126.ttf);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #260701;
+
+}
+
+p {
+    font-size: 18pt;
+}
+
 
 .container {
     display: flex;
@@ -45,7 +54,7 @@
 .box1 {
     height: 300px;
     justify-content: space-around;
-    background-color: var(--cor2);
+    background-color: var(--cor6);
 
 }
 
@@ -69,7 +78,7 @@
 
 .box3 {
     height: 100px;
-    background-color: var(--cor4);
+    background-color: var(--cor7);
     justify-content: space-between;
 
 }
@@ -96,14 +105,23 @@
     flex-direction: column;
     justify-content: left;
     height: 73%;
-    background-color: var(--cor3);
+    background-color: var(--cor7);
 }
 
 .menu {
     padding: 30px;
     transition-duration: 0.3s;
     border-radius: 5px;
+}
 
+.menu>a {
+    font-family: var(--fonte01);
+    font-size: 15pt;
+}
+
+.menu>p {
+    font-family: var(--fonte01);
+    font-size: 15pt;
 }
 
 .menu:hover {
@@ -126,7 +144,7 @@ main {
     text-align: justify;
     /* margin: 50px; */
 
-    background-color: var(--cor5);
+    background-image: url(./imagens/planoDeFundo.jpg);
 }
 
 /* .box6 {
@@ -142,7 +160,7 @@ main {
     justify-content: space-around;
     text-align: justify;
     margin: 50px;
-    line-height: 30px;
+    line-height: 41px;
 
 }
 
