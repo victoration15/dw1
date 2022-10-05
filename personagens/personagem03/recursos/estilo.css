@@ -52,7 +52,7 @@ p {
 }
 
 .box1 {
-    height: 300px;
+    height: 29%;
     justify-content: space-around;
     background-color: var(--cor6);
 
@@ -104,7 +104,7 @@ p {
 .box4 {
     flex-direction: column;
     justify-content: left;
-    height: 73%;
+    height: 71%;
     background-color: var(--cor7);
 }
 
